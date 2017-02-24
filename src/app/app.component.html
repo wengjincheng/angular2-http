@@ -2,5 +2,7 @@
   {{title}}
 </h1>
 
-<h2>ID:{{names.id}} Name:{{names.name}}</h2>
+<ul *ngFor="let d of names">
+  <li>ID: {{d.id}}</li>
+</ul>
 
